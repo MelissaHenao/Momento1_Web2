@@ -9,7 +9,7 @@ let peso_inicial;
 let peso_final;
 let estado;
 
-    let array_personas=req.body.personas
+    let array_personas=req.body
 
     for (let i = 0; i < array_personas.length; i++) {
         const pesoPersonas = array_personas[i];
